@@ -1,0 +1,149 @@
+html, body, #container, .fullheight {
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../../public/images/background.jpg);
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+iframe {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 5%;
+    left: 5%;
+    opacity: 0.9;
+    box-shadow: 0 0 4em 0 #000;
+}
+
+.play-with-chapi {
+    position: absolute;
+    width: 20%;
+    bottom: 5%;
+    right: 5%;
+}
+
+.la-plata-js {
+    position: absolute;
+    height: 40%;
+    bottom: 5%;
+    right: 5%;
+}
+
+.chapi {
+    box-shadow: 0 0 20px 3px black;
+    width: 54%;
+    padding: 3%;
+    float: left;
+    clear: left;
+    margin: 5% 0 5% 7%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.javi {
+    width: 60%;
+    padding: 0%;
+    float: left;
+    clear: left;
+    margin-left: 7%;
+}
+
+.javi .javi-avatar-container {
+    float: left;
+    text-align: center;
+    width: 23%;
+    background: #eee;
+    padding: 1% 0;
+    opacity: 0.9;
+    box-shadow: 0 0 9px 1px #333;
+    border-radius: 3px;
+}
+
+.javi p {
+    float: right;
+    min-height: 2em;
+    width: 67%;
+    background: white;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 0 0 9px 1px #333;
+    border-radius: 3px;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+.javi p.final {
+    color: #111;
+}
+
+.javi .javi-avatar-container img.avatar {
+    width: 80%;
+    margin-right: 10%; 
+    float: right;
+    margin-bottom: 12%;
+}
+
+.javi .javi-avatar-container img.mic {
+    width: 25%;
+    float: right;
+    margin-top: -25%;
+    margin-right: 3%;
+    display: none;
+}
+
+.javi .javi-avatar-container img.display {
+    display: block;
+}
+
+.chapi .chapi-avatar-container {
+    text-align: center;
+    width: 35%;
+    background: #eee;
+    padding: 3% 0;
+    opacity: 0.9;
+    box-shadow: 0 0 9px 1px #333;
+    border-radius: 3px;
+    margin-left: 35%;
+}
+
+.chapi p {
+    min-height: 2em;
+    background: white;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 0 9px 1px #333;
+    border-radius: 3px;
+    margin: 1em 0 0 0;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.chapi .chapi-avatar-container img {
+    width: 80%;
+}
+
+@media (max-width: 1024px) {
+    .chapi {
+        margin: 10% 0 5% 7%;
+    }
+
+    .javi {
+        width: 60%;
+    }
+
+    .chapi .chapi-avatar-container {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .chapi p {
+        margin: 2em 0 0 0;
+    }
+}

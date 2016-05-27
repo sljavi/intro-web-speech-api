@@ -1,0 +1,66 @@
+{
+  "name": "react-in-15-min",
+  "version": "1.0.0",
+  "description": "React in 15 min",
+  "main": "lib/index.js",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash": "^4.12.0",
+    "string-similarity": "^1.0.0"
+  },
+  "author": {
+    "name": "Javier Perez",
+    "email": "javi.pzv@gmail.com",
+    "url": "http://react-in-15-min.javierperez.com.ar"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "slides",
+    "presentation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sljavi/react-in-15-min.git"
+  },
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
+    "build": "WEBPACK_ENV=build ./node_modules/.bin/webpack",
+    "test": "karma start",
+    "test:ci": "watch 'npm run test' src/",
+    "prod": "webpack-dev-server -d --hot --https --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.24",
+    "babel-eslint": "4.1.3",
+    "babel-loader": "5.3.2",
+    "chai": "3.3.0",
+    "core-js": "1.1.4",
+    "css-loader": "0.22.0",
+    "eslint": "1.4.3",
+    "eslint-loader": "1.0.0",
+    "eslint-plugin-react": "3.4.1",
+    "file-loader": "0.8.5",
+    "flipclock": "0.7.8",
+    "karma": "0.13.10",
+    "karma-chai": "0.1.0",
+    "karma-chai-plugins": "0.6.0",
+    "karma-chai-sinon": "0.1.5",
+    "karma-chrome-launcher": "0.2.0",
+    "karma-mocha": "0.2.0",
+    "karma-mocha-reporter": "1.1.1",
+    "karma-phantomjs-launcher": "0.2.1",
+    "karma-sinon": "1.0.4",
+    "karma-sinon-chai": "1.1.0",
+    "karma-sourcemap-loader": "0.3.5",
+    "karma-webpack": "1.7.0",
+    "react": "0.14.3",
+    "style-loader": "0.12.4",
+    "url-loader": "0.5.7",
+    "velocity-animate": "1.2.3",
+    "velocity-react": "1.1.1",
+    "watch": "0.16.0",
+    "webpack": "1.12.2",
+    "webpack-dev-server": "1.11.0"
+  }
+}
