@@ -2,11 +2,22 @@
 
 A short, concise and brief presentation of web speech api
 
-[Online demo](https://web-speech-api.javierperez.com.ar)
+### Online Demo
+[https://web-speech-api.javierperez.com.ar](https://web-speech-api.javierperez.com.ar)
+
+*Note:* Allow the self ssl signed certificate if google chrome warns you
+
+## Usage
+
+- Download the repository
+- Execute `npm install`
+- Execute `npm run prod`
+- Open [https://localhost:8080/public/](https://localhost:8080/public/)
+- Allow the self ssl signed certificate if google chrome warns you
 
 Talk with chappie (only spanish dialogs)
  - click over chappie image
- - see `src/talking-game-dialog.js`
+ - see `src/talking-game-dialog.js` to know what things you can ask to chappie
  - press `s` to speak a message
 
 ## App based in React webpack starter template
