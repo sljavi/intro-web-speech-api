@@ -79,18 +79,18 @@ iframe {
     color: #ccc;
 }
 
-.javi p.final {
+.javi .final {
     color: #111;
 }
 
-.javi .javi-avatar-container img.avatar {
+.javi .javi-avatar-container .avatar {
     width: 80%;
     margin-right: 10%; 
     float: right;
     margin-bottom: 12%;
 }
 
-.javi .javi-avatar-container img.mic {
+.javi .javi-avatar-container .mic {
     width: 25%;
     float: right;
     margin-top: -25%;
@@ -98,7 +98,7 @@ iframe {
     display: none;
 }
 
-.javi .javi-avatar-container img.display {
+.javi .javi-avatar-container .display {
     display: block;
 }
 
