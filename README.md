@@ -1,4 +1,4 @@
-(https://travis-ci.org/sljavi/react-in-15-min.svg?branch=master)](https://travis-ci.org/sljavi/react-in-15-min)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eeb58c044ba54b90932d2ed154cc55d2)](https://www.codacy.com/app/javi-pzv/intro-web-speech-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sljavi/intro-web-speech-api&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/sljavi/intro-web-speech-api.svg?branch=master)](https://travis-ci.org/sljavi/intro-web-speech-api)
 
 # Web Speech Api
 
