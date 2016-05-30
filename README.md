@@ -1,12 +1,25 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eeb58c044ba54b90932d2ed154cc55d2)](https://www.codacy.com/app/javi-pzv/intro-web-speech-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sljavi/intro-web-speech-api&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/sljavi/intro-web-speech-api.svg?branch=master)](https://travis-ci.org/sljavi/intro-web-speech-api)
+
 # Web Speech Api
 
 A short, concise and brief presentation of web speech api
 
-[Online demo](https://web-speech-api.javierperez.com.ar)
+### Online Demo
+[https://web-speech-api.javierperez.com.ar](https://web-speech-api.javierperez.com.ar)
+
+*Note:* Allow the self ssl signed certificate if google chrome warns you
+
+## Usage
+
+- Download the repository
+- Execute `npm install`
+- Execute `npm run prod`
+- Open [https://localhost:8080/public/](https://localhost:8080/public/)
+- Allow the self ssl signed certificate if google chrome warns you
 
 Talk with chappie (only spanish dialogs)
  - click over chappie image
- - see `src/talking-game-dialog.js`
+ - see `src/talking-game-dialog.js` to know what things you can ask to chappie
  - press `s` to speak a message
 
 ## App based in React webpack starter template
