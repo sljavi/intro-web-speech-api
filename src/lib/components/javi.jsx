@@ -41,7 +41,7 @@ class Javi extends React.Component {
   }
 
   handleKeyUp(event) {
-    if (event.keyCode === S_KEY_CODE) {
+    if (event.keyCode === S_KEY_CODE && !this.state.talking) {
       this.speechRecognition.start();
     }
   }
