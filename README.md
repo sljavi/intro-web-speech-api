@@ -1,3 +1,5 @@
+(https://travis-ci.org/sljavi/react-in-15-min.svg?branch=master)](https://travis-ci.org/sljavi/react-in-15-min)
+
 # Web Speech Api
 
 A short, concise and brief presentation of web speech api
