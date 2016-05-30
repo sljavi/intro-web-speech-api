@@ -1,7 +1,7 @@
 {
-  "name": "react-in-15-min",
+  "name": "intro-web-speech",
   "version": "1.0.0",
-  "description": "React in 15 min",
+  "description": "Intro Web Speech",
   "main": "lib/index.js",
   "dependencies": {
     "classnames": "^2.2.5",
@@ -11,7 +11,7 @@
   "author": {
     "name": "Javier Perez",
     "email": "javi.pzv@gmail.com",
-    "url": "http://react-in-15-min.javierperez.com.ar"
+    "url": "https://intro-web-speech.javierperez.com.ar"
   },
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:sljavi/react-in-15-min.git"
+    "url": "git@github.com:sljavi/intro-web-speech.git"
   },
   "scripts": {
     "dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
